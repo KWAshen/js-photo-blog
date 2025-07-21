@@ -29,9 +29,44 @@ h1{
  width: 100%;
  height: 100%;
  display: flex;
- flex-wrap: wrap;
+ flex-direction: column;
  justify-content: center;
+ padding-right: 5%;
+ padding-left: 5%;
+ 
 }
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+}
+
 .card{
-  
+  /* display: flex; */
+  margin: 10px;
+  justify-content: center;
+  width: 650px;
+  height: 750px;
+  background-color: white;
+  padding:10px;
 }
+
+.immagine{
+width: 600px;
+height: 600px;
+background-color: blue;
+justify-content: center;
+align-content: center;
+}
+
+.testo{
+  display: flex;
+  margin-top: 10%;
+  text-align: center;
+  width: 100%;
+}
+
+/* p{
+  justify-content: end;
+  align-content:
+} */
