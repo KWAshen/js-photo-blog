@@ -150,3 +150,12 @@ width: 600px;
   border-radius: 5px;
   cursor: pointer;
 }
+
+#openPopUp {
+  margin-top: 10px;
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
